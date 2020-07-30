@@ -1,11 +1,9 @@
 import React from 'react'
 
-const Greet = (props)=>{
-console.log(props)
+const Greet = ({name, heroname})=>{
 return (
     <div>
-        <h1>Hello {props.name} whose favorite hero is {props.heroname}</h1>
-        {props.children}
+        <h1>Hello {name} whose favorite hero is {heroname}</h1>
     </div>
 ) 
 }
