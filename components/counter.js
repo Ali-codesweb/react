@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class counter extends Component {
+class counter extends Component {
     constructor(props) {
         super(props)
     
